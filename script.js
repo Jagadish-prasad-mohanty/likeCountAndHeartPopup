@@ -5,7 +5,6 @@ const showHeart = (e) =>{
     const heart=document.createElement("i");
     heart.classList.add("fas");
     heart.classList.add("fa-heart");
-    heart.classList.add("transformHeart");
     myArea.appendChild(heart);
 
     setTimeout((e) => {
